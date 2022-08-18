@@ -13,6 +13,6 @@ import EventDrivenSwift
  Dispatched any time a Serial Interface is removed from the system
  */
 public struct SerialPortRemovedEvent: Eventable {
-    var refTime: UInt64
-    var serial: Serialable?
+    public var refTime: UInt64
+    public var serial: Serialable?
 }

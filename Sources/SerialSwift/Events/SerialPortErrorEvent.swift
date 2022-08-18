@@ -13,7 +13,7 @@ import EventDrivenSwift
  Dispatched any time a Serial Interface error occurs
  */
 public struct SerialPortErrorEvent: Eventable {
-    var refTime: UInt64
-    var serial: Serialable?
-    var error: Error
+    public var refTime: UInt64
+    public var serial: Serialable?
+    public var error: Error
 }

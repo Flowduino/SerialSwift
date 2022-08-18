@@ -13,7 +13,7 @@ import EventDrivenSwift
  Dispatched any time a Serial Interface receives data from the peripheral device
  */
 public struct SerialPortDataReceivedEvent: Eventable {
-    var refTime: UInt64
-    var serial: Serialable?
-    var data: Data
+    public var refTime: UInt64
+    public var serial: Serialable?
+    public var data: Data
 }
