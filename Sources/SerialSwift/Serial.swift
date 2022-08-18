@@ -71,6 +71,9 @@ public class Serial: NSObject, ORSSerialPortDelegate, Serialable {
     }
     
     public func open() {
+        serialPort = ORSSerialPort.init(path: port)
+        serialPort?.delegate = self
+        serialPort?.baudRate = baud.rawValue
         serialPort?.open()
     }
     
