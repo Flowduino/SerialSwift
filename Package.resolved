@@ -1,0 +1,41 @@
+{
+  "pins" : [
+    {
+      "identity" : "eventdrivenswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Flowduino/EventDrivenSwift.git",
+      "state" : {
+        "revision" : "75eb253b9629ae8ea48cf9f769b0abcdd21debb0",
+        "version" : "4.0.2"
+      }
+    },
+    {
+      "identity" : "observable",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Flowduino/Observable.git",
+      "state" : {
+        "revision" : "d510e710900ea52bbfd9aa037addd708cbff526c",
+        "version" : "2.0.0"
+      }
+    },
+    {
+      "identity" : "orsserialport",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/armadsen/ORSSerialPort.git",
+      "state" : {
+        "revision" : "58a8cc454304e22280f184c2d2e25ecb3d5a74c5",
+        "version" : "2.1.0"
+      }
+    },
+    {
+      "identity" : "threadsafeswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Flowduino/ThreadSafeSwift.git",
+      "state" : {
+        "revision" : "1a25ee0eea2d74922f34da271347076772d42fc1",
+        "version" : "1.1.0"
+      }
+    }
+  ],
+  "version" : 2
+}
