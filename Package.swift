@@ -18,7 +18,7 @@ let package = Package(
         // Dependencies declare other packages that this package depends on.
         .package(url: "https://github.com/Flowduino/ThreadSafeSwift.git", .upToNextMajor(from: "1.1.0")),
         .package(url: "https://github.com/Flowduino/Observable.git", .upToNextMajor(from: "2.0.0")),
-        .package(url: "https://github.com/Flowduino/EventDrivenSwift.git", .upToNextMajor(from: "4.0.0")),
+        .package(url: "https://github.com/Flowduino/EventDrivenSwift.git", .upToNextMajor(from: "5.0.0")),
         .package(url: "https://github.com/armadsen/ORSSerialPort.git", .upToNextMajor(from: "2.1.0"))
     ],
     targets: [
