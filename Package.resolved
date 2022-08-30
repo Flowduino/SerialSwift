@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Flowduino/EventDrivenSwift.git",
       "state" : {
-        "revision" : "f8aac7cd0a7dd3bc38322467e8593785da4e9aaa",
-        "version" : "5.0.0"
+        "revision" : "9c0924c65634627815332e75ee134455b0607a9a",
+        "version" : "5.1.0"
       }
     },
     {
